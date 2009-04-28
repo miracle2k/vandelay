@@ -1,0 +1,5 @@
+Instead of emitting Python internally, we could compile to Parrot. This
+would allow actions to be written in any Parrot language, and a build
+script could easily include code written in any Parrot language. Right
+now, Parrot language support is rather limited, and I'm not particularly
+looking forward to writing lots of PIR, so this is for a future time.
